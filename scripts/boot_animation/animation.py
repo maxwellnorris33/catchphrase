@@ -2,7 +2,7 @@
 
 import time
 
-from ._sprite import HEIGHT, PIXELS, WIDTH
+from _sprite import HEIGHT, PIXELS, WIDTH
 
 
 def _draw(display, left, top):
