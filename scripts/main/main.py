@@ -45,14 +45,21 @@ play() #default settings
 
 #gameplay loop
 while game_active:
+
+    # draw and perform the category selection mode
     if select_category:
+        # draw current game state
         draw_game(display, current_category, team_one_score, team_two_score)
+
+        # define action after an interrupt is flagged
         if pressed:
             key = pressed.pop(0)
             if key == "Key 0":
                 team_one_score += 1
             elif key == "Key 1":
                 team_two_score += 1
+
+        # check win conditions
         if team_one_score >= 7:
             draw_word(display, "Team 1 Wins!")
             time.sleep(3)
@@ -65,6 +72,8 @@ while game_active:
             team_one_score = 0
             team_two_score = 0
             play()
+
+    # draw and perform the word guessing, "catchphrase" mode
     else:
         draw_game(display, current_catchphrase, team_one_score, team_two_score)
 
