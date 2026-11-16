@@ -6,7 +6,7 @@
 The game is finally starting to progress; I've finally had time to sit down and learn how to use the Pico and the OLED screen I bought for it.
 
 First up, I got the divider for the Pico and OLED printed from a friend at work so I can attach additional buttons and stuff to the board and keep the headers exposed a consistent amount.
-![View the 3D model](stl/Pico2divider.stl)
+![View the 3D model](hardware/stl/Pico2divider.stl)
 
 With my divider I felt inspired to code, so I got a boot up animation rendered from sticker art my sister once made for me:
 ![original image](media/images/Bear.png)
