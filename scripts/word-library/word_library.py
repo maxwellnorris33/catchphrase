@@ -1,17 +1,5 @@
-CATEGORIES = {
-	"GREAT_OUTDOORS": "Great Outdoors", #animals, nature, hiking, camping, geography
-	"CULINARY": "Culinary", #food, cooking, beverages, celebrity chefs
-	"POP_CULTURE": "Pop Culture", #movies, music, television, celebrities
-    "AROUND_THE_WORLD": "Around the World", #geography, travel, cultures
-    "HISTORY": "History", #historical events, figures, periods
-    "SCIENCE": "Science", #biology, chemistry, physics, astronomy, engineering, tech news, tech figures
-    "SPORTS": "Sports", #team sports, individual sports, sporting events
-    "GAMING": "Gaming", #board games, video games, gaming slang
-    "MEMES": "Memes" #internet culture, viral content
-}
-
 WORD_LISTS = {
-	"GREAT_OUTDOORS": [
+	"Great Outdoors": [
 		"Bear", "Moose", "Bald Eagle", "Red Fox", "Gray Wolf", "Mountain Goat", "Bighorn Sheep", "River Otter", "Beaver", "Raccoon",
 		"Porcupine", "Black Bear", "Grizzly Bear", "Elk", "White-Tailed Deer", "Hummingbird", "Woodpecker", "Great Blue Heron", "Wild Turkey", "Snowshoe Hare",
 		"Monarch Butterfly", "Honeybee", "Firefly", "Dragonfly", "Praying Mantis", "Ladybug", "Caterpillar", "Tadpole", "Garter Snake", "Painted Turtle",
@@ -31,7 +19,7 @@ WORD_LISTS = {
 		"Fairy Chimney", "Singing Sand Dune", "Bioluminescent Bay", "Petrified Forest", "Vernal Pool", "Karst Sinkhole", "Talus", "Scree Field", "Cloud Forest", "Peat Bog",
 		"Ski Lift", "Powder Day", "Ski Trail", "Après-Ski", "Fresh Tracks", "Albertasaurus",
 	],
-	"CULINARY": [
+	"Culinary": [
 		"Sourdough Starter", "Grilled Cheese", "Tomato Soup", "Apple Pie", "Chocolate Cake", "Banana Bread", "Blueberry Muffin", "Cinnamon Roll", "French Toast", "Pancake Stack",
 		"Maple Syrup", "Avocado Toast", "Eggs Benedict", "Breakfast Burrito", "Oatmeal Bowl", "Club Sandwich", "BLT Sandwich", "Chicken Noodle Soup", "Clam Chowder", "Miso Soup",
 		"Ramen Noodles", "Pad Thai", "Sushi Roll", "Dumplings", "Fried Rice", "Bibimbap", "Kimchi", "Tacos al Pastor", "Street Tacos", "Burrito Bowl",
@@ -50,7 +38,7 @@ WORD_LISTS = {
 		"Eel Pie", "Beestings Pie", "Clootie Dumpling", "Cranachan", "Posset", "Syllabub", "Blancmange", "Roly-Poly Pudding", "Treacle Tart", "Vinegar Pie",
 		"Chess Pie", "Hoppin' John", "Spoonbread", "Burgoo", "Pepperpot Soup", "Calas", "Toum", "Preserved Lemon", "Black Garlic", "Verjuice",
 	],
-	"POP_CULTURE": [
+	"Pop Culture": [
 		"The Wizard of Oz", "Jaws", "Jurassic Park", "Back to the Future", "Ghostbusters", "Home Alone", "The Princess Bride", "The Matrix", "Finding Nemo", "Toy Story",
 		"The Incredibles", "Shrek", "Frozen", "Moana", "Coco", "Spider-Man", "Batman", "Wonder Woman", "Black Panther", "The Avengers",
 		"Star Wars", "The Empire Strikes Back", "E.T.", "King Kong", "Godzilla", "Indiana Jones", "Rocky", "The Karate Kid", "The Sound of Music", "Mary Poppins",
@@ -72,7 +60,7 @@ WORD_LISTS = {
 		"Masayoshi Takanaka", "Blue Lagoon", "An Insatiable High", "Talking Heads", "Once in a Lifetime", "Burning Down the House", "Steely Dan", "Reelin' in the Years", "Aja", "Tame Impala",
 		"The Less I Know the Better", "Currents", "Djo", "End of Beginning", "Joe Keery",
 	],
-	"AROUND_THE_WORLD": [
+	"Around the World": [
 		"Tokyo", "Kyoto", "Seoul", "Beijing", "Shanghai", "Hong Kong", "Bangkok", "Hanoi", "Singapore", "Kathmandu",
 		"Taj Mahal", "Great Wall of China", "Mount Fuji", "Angkor Wat", "Bali", "Great Barrier Reef", "Sydney Opera House", "Uluru", "Auckland", "Fiji Islands",
 		"Paris", "Eiffel Tower", "Louvre Museum", "London", "Big Ben", "Stonehenge", "Edinburgh Castle", "Dublin", "Rome", "Colosseum",
@@ -92,7 +80,7 @@ WORD_LISTS = {
 		"Banff", "Jasper National Park", "Montreal", "Vancouver", "Ottawa", "Peggy's Cove", "Bay of Fundy", "Haida Gwaii", "Churchill", "Cabot Trail",
 		"CN Tower", "Old Quebec", "Icefields Parkway", "Lake Louise", "Prince Edward Island",
 	],
-	"HISTORY": [
+	"History": [
 		"Ancient Egypt", "Cleopatra", "Pharaoh", "Rosetta Stone", "Pyramids of Giza", "Ancient Greece", "Socrates", "Olympic Games", "Roman Empire", "Julius Caesar",
 		"Colosseum", "Silk Road", "Maya Civilization", "Aztec Empire", "Inca Trail", "Viking Longship", "Joan of Arc", "Magna Carta", "Black Death", "Renaissance",
 		"Leonardo da Vinci", "Printing Press", "Galileo Galilei", "Age of Exploration", "Christopher Columbus", "Mona Lisa", "Shakespeare", "Spanish Armada", "American Revolution", "Boston Tea Party",
@@ -110,7 +98,7 @@ WORD_LISTS = {
 		"Toledo War", "Pastry War", "Codex Gigas", "Voynich Manuscript", "Phaistos Disc", "Nebra Sky Disc", "Sutton Hoo Helmet", "Staffordshire Hoard", "Vinland Map", "Baghdad Battery",
 		"Roman Dodecahedron", "Dendera Zodiac", "Oak Island Mystery", "Mary Celeste", "Franklin Expedition", "Nimrud Lens", "Laki Eruption", "Year Without a Summer", "Great Stink of London", "London Beer Flood",
 	],
-	"SCIENCE": [
+	"Science": [
 		"Solar System", "Milky Way", "Black Hole", "Supernova", "Comet", "Meteor Shower", "Lunar Eclipse", "Solar Eclipse", "Northern Lights", "Mars Rover",
 		"Moon Landing", "Astronaut", "Space Station", "Telescope", "Constellation", "Gravity", "Orbit", "Rocket Launch", "Alien Life", "Light-Year",
 		"DNA Double Helix", "Microscope", "Petri Dish", "Cell Division", "Photosynthesis", "Ecosystem", "Food Chain", "Coral Bleaching", "Endangered Species", "Fossil Record",
@@ -128,7 +116,7 @@ WORD_LISTS = {
 		"Horizontal Gene Transfer", "CRISPR", "Epigenetic Clock", "Telomere", "Prion", "Viroid", "Quorum Sensing", "Kleptoplasty", "Mycorrhiza", "Convergent Evolution",
 		"Ring Species", "Cambrian Explosion", "Ediacaran Biota", "Burgess Shale", "Hox Gene", "RNA World", "Abiogenesis", "Dark Forest Hypothesis", "False Vacuum Decay", "Quantum Eraser",
 	],
-	"SPORTS": [
+	"Sports": [
 		"Soccer", "World Cup", "Penalty Kick", "Goalkeeper", "Hat Trick", "Corner Kick", "Basketball", "Slam Dunk", "Free Throw", "Three-Point Shot",
 		"Buzzer Beater", "March Madness", "Baseball", "Home Run", "Grand Slam", "Pitcher", "Catcher", "Seventh-Inning Stretch", "Stolen Base", "Walk-Off Win",
 		"American Football", "Touchdown", "Quarterback", "Field Goal", "Hail Mary Pass", "Super Bowl", "Hockey", "Hat Trick Goal", "Power Play", "Penalty Box",
@@ -147,7 +135,7 @@ WORD_LISTS = {
 		"The Ball Took a Funny Bounce", "Play the Long Game", "A Game of Inches", "Leave It All on the Field", "Down to the Wire", "Against the Run of Play", "The Scoreboard Doesn't Lie", "Saved by the Buzzer", "A Photo Finish", "In the Home Stretch",
 		"Mogul Run", "Giant Slalom", "Ski Cross", "Ski Jump Landing", "Ski Wax", "Bunny Hill", "Ski Bunny","Ski Patrol", "BCA", "Avalanche Beacon",
 	],
-	"GAMING": [
+	"Gaming": [
 		"Chess", "Checkmate", "Queen's Gambit", "King Me", "Backgammon", "Dominoes", "Jigsaw Puzzle", "Rubik's Cube", "Charades", "Pictionary",
 		"Twenty Questions", "Hide and Seek", "Tag, You're It", "Rock Paper Scissors", "Musical Chairs", "Treasure Hunt", "Board Game Night", "Card Shark", "Poker Face", "Royal Flush",
 		"Bingo Caller", "Dungeons and Dragons", "Dungeon Master", "Critical Hit", "Side Quest", "Dice Roll", "Tabletop Role-Playing", "Trading Card Game", "Booster Pack", "Card Collection",
@@ -166,7 +154,7 @@ WORD_LISTS = {
 		"Minecraft", "Creeper", "Ender Dragon", "Nether Portal", "Redstone Circuit", "Diamond Pickaxe", "Villager Trade", "Steve from Minecraft", "Overworld Spawn", "Creeper Aw Man",
 		"Terraria", "Eye of Cthulhu", "Guide Voodoo Doll", "Wall of Flesh", "Moon Lord", "Crimson Biome", "Hallowed Mimic", "Terraria Boss Arena", "Fallen Star", "The Guide's Advice",
 	],
-	"MEMES": [
+	"Memes": [
 		"Doge", "Grumpy Cat", "Success Kid", "Disaster Girl", "This Is Fine", "Woman Yelling at a Cat", "Surprised Pikachu", "Two Buttons", "Drake Hotline Bling",
 		"One Does Not Simply", "Bad Luck Brian", "Hide the Pain Harold", "Overly Attached Girlfriend", "Conspiracy Keanu", "Ancient Aliens Guy", "Mocking SpongeBob", "Arthur's Fist", "Expanding Brain", "Galaxy Brain",
 		"Is This a Pigeon?", "Change My Mind", "Roll Safe", "Blinking White Guy", "Crying Michael Jordan", "Confused Math Lady", "Side-Eye Chloe", "Kermit Sipping Tea", "Evil Kermit", "Leonardo DiCaprio Cheers",
